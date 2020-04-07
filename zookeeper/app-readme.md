@@ -1,0 +1,3 @@
+# Zookeeper高可用集群
+
+基于Kubernetes部署的Zookeeper高可用集群，Allsmart云平台专用。

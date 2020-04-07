@@ -1,0 +1,31 @@
+    categories:
+    - Allsmart
+    questions:
+    - variable: image.registry
+      default: "harbor.dev.cn"
+      description: "要使用的镜像仓库"
+      type: string
+      required: true
+      label: "从哪一个仓库拉取镜像？"
+      group: "镜像拉取参数"
+    - variable: image.tag
+      default: "0220.3.4.13"
+      description: "镜像版本"
+      type: string
+      required: true
+      label: "使用什么版本的镜像？"
+      group: "镜像获取参数"
+    - variable: replicaCount
+      default: 3
+      description: "需要运行的副本数"
+      type: int
+      required: true
+      label: 运行几个实例？
+      group: 运行参数
+    - variable: persistence.size
+      default: 30Gi
+      description: "持久化存储卷的大小"
+      type: string
+      required: true
+      label: 持久化存储分配多大空间？
+      group: 应用配置
