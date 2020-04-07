@@ -93,7 +93,7 @@ heapSize: 1024
 
 ## Configure ZooKeeper with a custom zoo.cfg file
 ##
-config: true
+## config: true
 
 ## Kubernetes configuration
 ## For minikube, set this to NodePort, elsewhere use LoadBalancer
